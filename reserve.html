@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Navbar Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Reston Express" /></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="reserve.html">Request a Pick Up</a></li>
+              <li><a href="rates.html">Rates</a></li>
+              <li><a href="questions.html">Questions and Comments</a></li>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
+
+      <h1>Request a Pick Up</h1>
+      <p>Thank you for choosing Reston Express for your transportation needs. An email will be sent to you confirming the details of your reservation. Please feel free to call or email us back if you need to make any changes.</p> 
+
+      Passenger:<br>
+      <input name="Name" type="text" id="Name" size="50"  value=""/><br><br>
+            
+      Your Email:<br>
+      <input name="EmailAddress" type="text" id="EmailAddress" size="50"  value=""/><br><br>
+      
+      Pick Up Date:<br>
+      <input name="DateRequestedForPickup" type="text" id="DateRequestedForPickup" size="50" value=""/><br><br>
+            
+      Pick Up Time:<br>
+      <input name="TimeRequestedForPickup" type="text" id="TimeRequestedForPickup" size="50" value="" /><br><br>
+
+            
+      Pick Up Address:<br>
+      <textarea name="Address" cols="50" rows="3" id="Address"></textarea><br><br>
+          
+      Destination:<br>
+      <textarea name="Destination" cols="50" rows="3" id="Destination"></textarea><br><br>
+      
+      Phone Number:<br>
+      <input name="PhoneNumber" type="text" id="PhoneNumber" size="50" value=""/><br><br>
+
+      Additional Information:<br>
+      <textarea name="AdditionalInformation" cols="50" rows="5" id="AdditionalInformation"></textarea>
+            
+
+      <div class="row">
+        <div class="col-lg-12 we-accept">
+          <p><strong>WE ACCEPT: </strong><img src="images/cc_logos.jpg" alt="" /></p>
+        </div>
+      </div>   
+
+     
+
+    </div> <!-- /container -->
+
+    <footer>
+        <p>&copy; Copyright 2014</p>
+      </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

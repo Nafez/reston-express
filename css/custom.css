@@ -1,0 +1,45 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+	padding-top: 7px;
+
+}
+
+.navbar-brand img {
+	height: 40px;
+	width: auto;
+	position: relative;
+	top: 0;
+}
+.we-accept img {
+	height: 50px;
+	width: auto;
+	margin-left: 15px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 15px;
+}
